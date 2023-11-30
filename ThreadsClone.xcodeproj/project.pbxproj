@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187888282B19388900E6BA26 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187888272B19388900E6BA26 /* CircularProfileImageView.swift */; };
+		1878882A2B19392600E6BA26 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187888292B19392600E6BA26 /* UserCellView.swift */; };
 		18C8144B2B178B6A0060D1CA /* ThreadsCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8144A2B178B6A0060D1CA /* ThreadsCloneApp.swift */; };
 		18C8144D2B178B6A0060D1CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8144C2B178B6A0060D1CA /* ContentView.swift */; };
 		18C8144F2B178B6C0060D1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C8144E2B178B6C0060D1CA /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187888272B19388900E6BA26 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		187888292B19392600E6BA26 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 		18C814472B178B6A0060D1CA /* ThreadsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C8144A2B178B6A0060D1CA /* ThreadsCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsCloneApp.swift; sourceTree = "<group>"; };
 		18C8144C2B178B6A0060D1CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187888262B19385F00E6BA26 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				187888272B19388900E6BA26 /* CircularProfileImageView.swift */,
+				187888292B19392600E6BA26 /* UserCellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		18C8143E2B178B6A0060D1CA = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +115,7 @@
 		18C814622B178D390060D1CA /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				187888262B19385F00E6BA26 /* Components */,
 				18C814802B17CCC30060D1CA /* Activity */,
 				18C814682B178DAB0060D1CA /* Authentication */,
 				18C814782B17CC120060D1CA /* Explore */,
@@ -338,8 +352,10 @@
 				18C814772B17C9700060D1CA /* FeedView.swift in Sources */,
 				18C8146B2B178E550060D1CA /* LoginView.swift in Sources */,
 				18C8146E2B1798060060D1CA /* TextFieldModifier.swift in Sources */,
+				1878882A2B19392600E6BA26 /* UserCellView.swift in Sources */,
 				18C814892B17D2DE0060D1CA /* ThreadCell.swift in Sources */,
 				18C814832B17CCE10060D1CA /* ActivityView.swift in Sources */,
+				187888282B19388900E6BA26 /* CircularProfileImageView.swift in Sources */,
 				18C814732B17C3A20060D1CA /* ThreadsTabView.swift in Sources */,
 				18C8144D2B178B6A0060D1CA /* ContentView.swift in Sources */,
 				18C8144B2B178B6A0060D1CA /* ThreadsCloneApp.swift in Sources */,
